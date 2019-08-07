@@ -1,7 +1,7 @@
 # AbsoluteZero
 Python APT Backdoor
 
-#To ozzie_offsec:
+# To ozzie_offsec:
 
 Add a '__ini__.py' file in each folder or the compiler will not find the scripts.
 
