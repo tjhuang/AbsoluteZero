@@ -1,17 +1,12 @@
+![AbsoluteZeroImage](https://i1253.photobucket.com/albums/hh583/TheSphinx56mb/AbsoluteZero_zpsmppwty7j.png)
+
 # AbsoluteZero
-Python APT Backdoor
+This project is a Python APT backdoor, optimized for Red Team Post Exploitation Tool, it can generate binary payload or pure python source. The final stub uses polymorphic encryption to give a first obfuscation layer to itself.
 
-# To ozzie_offsec:
+# Deployment
 
-Add a '__ini__.py' file in each folder or the compiler will not find the scripts.
+AbsoluteZero is a complete software written in Python 2.7 and works both on Windows and Linux platforms, in order to make it working you need to have Python 2.7 installed and then using 'pip' install the requirements.txt file.
+Remember that to compile binaries for Windows you have to run the entire software a Microsoft platform seen that pyinstaller doesn't allow cross-platform compiling without using _vine_.
 
-I've used python 2.7 and for addictional modules just check out what the compiler is missing and install them via pip.
+Make sure that Python installation folder is set on '_C:/Python27_' to avoid binary compiling troubles.
 
-I remember that i used:
-colorama
-tabulate
-shutil
-tempfile
-pyCrypto
-
-If you have any trouble let me know
