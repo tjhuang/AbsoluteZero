@@ -1,0 +1,4 @@
+passlib==1.7.1
+colorama==0.4.1
+tabulate==0.8.3
+pycrypto==2.6.1
